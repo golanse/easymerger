@@ -311,13 +311,12 @@ If EasyMerger helped you, you can buy me a coffee ☕
   <img src="https://raw.githubusercontent.com/golanse/easymerger/main/docs/sponsor-wechat.jpg" width="220" alt="WeChat Pay">
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://raw.githubusercontent.com/golanse/easymerger/main/docs/sponsor-usdt.jpg" width="220" alt="USDT">
-
-  <a href="https://www.paypal.com/paypalme/piger2008">PAYPAL</a>
 </div>
 
 <div align="center">
   <b>WeChat Pay</b> &nbsp;|&nbsp; <b>USDT(network:solana)</b>
 </div>
+<a href="https://www.paypal.com/paypalme/piger2008"><b>PAYPAL</b></a>
 
 > Sponsorship is entirely optional and does not unlock any features.
 > This project is permanently free and open-source; all features are the same for everyone.
