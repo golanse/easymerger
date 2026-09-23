@@ -311,7 +311,7 @@ If EasyMerger helped you, you can buy me a coffee ☕
   <img src="https://raw.githubusercontent.com/golanse/easymerger/main/docs/sponsor-wechat.jpg" width="220" alt="WeChat Pay">
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://raw.githubusercontent.com/golanse/easymerger/main/docs/sponsor-usdt.jpg" width="220" alt="USDT">
-  &nbsp;&nbsp;&nbsp;&nbsp;
+
   <a href="https://www.paypal.com/paypalme/piger2008">PAYPAL</a>
 </div>
 
