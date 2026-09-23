@@ -316,8 +316,9 @@ If EasyMerger helped you, you can buy me a coffee ☕
 <div align="center">
   <b>WeChat Pay</b> &nbsp;|&nbsp; <b>USDT(network:solana)</b>
 </div>
+<div align="center">
 <a href="https://www.paypal.com/paypalme/piger2008"><b>PAYPAL</b></a>
-
+</div>
 > Sponsorship is entirely optional and does not unlock any features.
 > This project is permanently free and open-source; all features are the same for everyone.
 
