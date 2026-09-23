@@ -2,7 +2,12 @@
 
 **简体中文** | [English](#english)
 
-**通用短剧/漫剧等视频无损合并 / 参数对齐 / 批量排队工具。**
+**通用短剧/漫剧等视频无损合并 / 参数对齐 / 批量导入排队工具。**
+
+## 😣解决的痛点：
+1.引入合并前的智能判断：市面上的视频合并拼接软件比如（shanaencoder），几乎都没有无损合并（-c copy）前的判断，让用户自己判断。一批视频比如短剧剧集看似参数一致，但其实不一致，使用无损合并导致输出视频花屏、卡声音等。本软件引入合并前智能判断功能，不用人工判断（人工也判断不准），参数相同走无损合并通道（耗时超短），参数不同转码合并通道。
+2.批量添加（每文件夹一个任务）：以每个文件夹下检测到的第一个视频为基准转码参数（需转码合并的情况下），多批剧集一键导入任务直接开始，上午导入任务，下午验收成果，中途几乎不用管，省心。
+3.尽最大可能保证视频原画质：为了强化这一功能我们在无损合并的基础上引入了一键对齐异类和智能直通功能，这些功能不但保住了画质还节省了多余转码的时间。
 
 核心目标只有一个：**能用无损合并就绝不用转码。**
 
@@ -28,7 +33,7 @@
 | **智能直通** | 视频参数一致时只统一音频，视频流 `copy`，零损失且极快 |
 | **一键对齐异类** | 只转换参数不同的那几个文件，转完自动校验是否与多数派一致 |
 | **硬件编码** | 支持 AMD AMF / NVIDIA NVENC / Intel QSV / Apple VideoToolbox，可手动指定用哪张卡 |
-| **批量排队** | 每个文件夹一个任务，排队顺序处理，支持暂停 / 继续 / 停止 |
+| **批量导入排队** | 每个文件夹一个任务，排队顺序处理，支持暂停 / 继续 / 停止 |
 | **音频 Profile 处理** | 自动识别各编码器的实际能力，区分"能编码"与"能解码" |
 | **容错回退** | 单文件直通失败时自动诊断码流 → 换中间容器 → 重编码救回，不让整个任务陪葬 |
 | **主题与语言** | 浅色 / 深色主题，简体中文 / English 界面（菜单 → 视图） |
@@ -76,8 +81,6 @@ python main.py
 # Windows 打包（需先把 ffmpeg.exe / ffprobe.exe 放入 vendor/ffmpeg/bin/）
 pyinstaller build.spec
 ```
-
-Windows 用户也可直接双击 `3_build_exe.bat`。
 
 自检脚本：
 
@@ -166,6 +169,9 @@ EasyMerger 通过**命令行子进程**调用 FFmpeg，不链接、不修改其�
 
 **A general-purpose tool for lossless video merging, parameter alignment, and batch queuing.**
 
+## 😣 Pain point being solved：
+ 1. Introducing intelligent pre-merge judgment: Most video merging and stitching software on the market, such as ShanaEncoder, do not provide pre-merge lossless judgment (-c copy), leaving users to decide on their own. A batch of videos, such as short drama episodes, may seem to have consistent parameters, but actually do not. Using lossless merging can result in issues like output video screen distortion and audio stuttering. This software introduces an intelligent pre-merge judgment feature, eliminating the need for manual evaluation (which is often inaccurate). Videos with the same parameters use the lossless merge channel (extremely fast), while videos with different parameters go through the transcoding merge channel. 2. Batch addition (one task per folder): The first video detected in each folder serves as the reference for transcoding parameters (when transcoding merge is needed). Multiple batches of episodes can be imported with one click to start tasks immediately. Tasks imported in the morning can be reviewed in the afternoon with minimal intervention, making it worry-free. 3. Maximizing the preservation of original video quality: To strengthen this feature, we introduced one-click alignment for different formats and intelligent passthrough in addition to lossless merging. These functions not only maintain video quality but also save time by avoiding unnecessary transcoding.
+
 It has exactly one core goal: **never transcode if it can concatenate losslessly.**
 
 EasyMerger inspects a batch of videos and checks whether their parameters match.
@@ -242,7 +248,6 @@ python main.py
 pyinstaller build.spec
 ```
 
-On Windows you can also just double-click `3_build_exe.bat`.
 
 Self-check scripts:
 
@@ -314,7 +319,7 @@ If EasyMerger helped you, you can buy me a coffee ☕
 </div>
 
 <div align="center">
-  <b>WeChat Pay</b> &nbsp;|&nbsp; <b>USDT(network:solana)</b>|&nbsp; <a href="https://www.paypal.com/paypalme/piger2008"target="_blank"><b>PAYPAL</b></a>
+  <b>WeChat Pay</b> &nbsp;|&nbsp; <b>USDT(network:solana)</b> &nbsp;|&nbsp; <a href="https://www.paypal.com/paypalme/piger2008"target="_blank"><b>PAYPAL</b></a>
 </div>
 
 > Sponsorship is entirely optional and does not unlock any features.
