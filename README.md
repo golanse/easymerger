@@ -140,11 +140,11 @@ EasyMerger 通过**命令行子进程**调用 FFmpeg，不链接、不修改其�
 <div align="center">
   <img src="https://raw.githubusercontent.com/golanse/easymerger/main/docs/sponsor-wechat.png" width="220" alt="微信打赏">
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/golanse/easymerger/main/docs/sponsor-alipay.png" width="220" alt="支付宝打赏">
+  <img src="https://raw.githubusercontent.com/golanse/easymerger/main/docs/sponsor-usdt.png" width="220" alt="USDT打赏">
 </div>
 
 <div align="center">
-  <b>微信 WeChat</b> &nbsp;|&nbsp; <b>支付宝 Alipay</b>
+  <b>微信 WeChat</b> &nbsp;|&nbsp; <b>USDT(主网solana)</b>
 </div>
 
 > 打赏完全自愿，不会解锁任何功能。本项目永久开源免费，功能对所有用户一致。
@@ -310,11 +310,32 @@ If EasyMerger helped you, you can buy me a coffee ☕
 <div align="center">
   <img src="https://raw.githubusercontent.com/golanse/easymerger/main/docs/sponsor-wechat.png" width="220" alt="WeChat Pay">
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/golanse/easymerger/main/docs/sponsor-alipay.png" width="220" alt="Alipay">
+  <img src="https://raw.githubusercontent.com/golanse/easymerger/main/docs/sponsor-usdt.png" width="220" alt="USDT">
 </div>
+<div id="paypal-button-container-P-7V483144X73761712NK2BVPI"></div>
+<script src="https://www.paypal.com/sdk/js?client-id=AUCYJiUozkzlz1KQZjfKNCEogfgMV9uhcghR6v5-QoqehDewXNebuYPH0uYzZVDGMvKHJSDNxHIvrjWJ&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
+<script>
+  paypal.Buttons({
+      style: {
+          shape: 'pill',
+          color: 'gold',
+          layout: 'vertical',
+          label: 'paypal'
+      },
+      createSubscription: function(data, actions) {
+        return actions.subscription.create({
+          /* Creates the subscription */
+          plan_id: 'P-7V483144X73761712NK2BVPI'
+        });
+      },
+      onApprove: function(data, actions) {
+        alert(data.subscriptionID); // You can add optional success message for the subscriber here
+      }
+  }).render('#paypal-button-container-P-7V483144X73761712NK2BVPI'); // Renders the PayPal button
+</script>
 
 <div align="center">
-  <b>WeChat Pay</b> &nbsp;|&nbsp; <b>Alipay</b>
+  <b>WeChat Pay</b> &nbsp;|&nbsp; <b>USDT(network:solana)</b>
 </div>
 
 > Sponsorship is entirely optional and does not unlock any features.
