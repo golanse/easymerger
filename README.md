@@ -138,9 +138,9 @@ EasyMerger 通过**命令行子进程**调用 FFmpeg，不链接、不修改其�
 如果 EasyMerger 帮到了你，欢迎请作者喝杯咖啡 ☕
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/golanse/easymerger/main/docs/sponsor-wechat.png" width="220" alt="微信打赏">
+  <img src="https://raw.githubusercontent.com/golanse/easymerger/main/docs/sponsor-wechat.jpg" width="220" alt="微信打赏">
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/golanse/easymerger/main/docs/sponsor-usdt.png" width="220" alt="USDT打赏">
+  <img src="https://raw.githubusercontent.com/golanse/easymerger/main/docs/sponsor-usdt.jpg" width="220" alt="USDT打赏">
 </div>
 
 <div align="center">
@@ -308,9 +308,9 @@ nonfree build yourself, please keep it private and do not distribute it.
 If EasyMerger helped you, you can buy me a coffee ☕
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/golanse/easymerger/main/docs/sponsor-wechat.png" width="220" alt="WeChat Pay">
+  <img src="https://raw.githubusercontent.com/golanse/easymerger/main/docs/sponsor-wechat.jpg" width="220" alt="WeChat Pay">
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/golanse/easymerger/main/docs/sponsor-usdt.png" width="220" alt="USDT">
+  <img src="https://raw.githubusercontent.com/golanse/easymerger/main/docs/sponsor-usdt.jpg" width="220" alt="USDT">
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://www.paypal.com/paypalme/piger2008">PAYPAL</a>
 </div>
