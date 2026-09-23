@@ -144,7 +144,7 @@ EasyMerger 通过**命令行子进程**调用 FFmpeg，不链接、不修改其�
 </div>
 
 <div align="center">
-  <b>微信 WeChat</b> &nbsp;|&nbsp; <b>USDT(主网solana)</b>
+  <b>微信 WeChat</b> &nbsp;|&nbsp; <b>USDT(主网:solana)</b>|&nbsp; <a href="https://www.paypal.com/paypalme/piger2008"target="_blank"><b>PAYPAL</b></a>
 </div>
 
 > 打赏完全自愿，不会解锁任何功能。本项目永久开源免费，功能对所有用户一致。
@@ -314,11 +314,9 @@ If EasyMerger helped you, you can buy me a coffee ☕
 </div>
 
 <div align="center">
-  <b>WeChat Pay</b> &nbsp;|&nbsp; <b>USDT(network:solana)</b>|&nbsp; <a href="https://www.paypal.com/paypalme/piger2008" target="_blank"><b>PAYPAL</b></a>
+  <b>WeChat Pay</b> &nbsp;|&nbsp; <b>USDT(network:solana)</b>|&nbsp; <a href="https://www.paypal.com/paypalme/piger2008"target="_blank"><b>PAYPAL</b></a>
 </div>
-<div align="center">
-<a href="https://www.paypal.com/paypalme/piger2008"><b>PAYPAL</b></a>
-</div>
+
 > Sponsorship is entirely optional and does not unlock any features.
 > This project is permanently free and open-source; all features are the same for everyone.
 
