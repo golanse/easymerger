@@ -311,28 +311,9 @@ If EasyMerger helped you, you can buy me a coffee ☕
   <img src="https://raw.githubusercontent.com/golanse/easymerger/main/docs/sponsor-wechat.png" width="220" alt="WeChat Pay">
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://raw.githubusercontent.com/golanse/easymerger/main/docs/sponsor-usdt.png" width="220" alt="USDT">
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.paypal.com/paypalme/piger2008">PAYPAL</a>
 </div>
-<div id="paypal-button-container-P-7V483144X73761712NK2BVPI"></div>
-<script src="https://www.paypal.com/sdk/js?client-id=AUCYJiUozkzlz1KQZjfKNCEogfgMV9uhcghR6v5-QoqehDewXNebuYPH0uYzZVDGMvKHJSDNxHIvrjWJ&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
-<script>
-  paypal.Buttons({
-      style: {
-          shape: 'pill',
-          color: 'gold',
-          layout: 'vertical',
-          label: 'paypal'
-      },
-      createSubscription: function(data, actions) {
-        return actions.subscription.create({
-          /* Creates the subscription */
-          plan_id: 'P-7V483144X73761712NK2BVPI'
-        });
-      },
-      onApprove: function(data, actions) {
-        alert(data.subscriptionID); // You can add optional success message for the subscriber here
-      }
-  }).render('#paypal-button-container-P-7V483144X73761712NK2BVPI'); // Renders the PayPal button
-</script>
 
 <div align="center">
   <b>WeChat Pay</b> &nbsp;|&nbsp; <b>USDT(network:solana)</b>
