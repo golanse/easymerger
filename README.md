@@ -314,7 +314,7 @@ If EasyMerger helped you, you can buy me a coffee ☕
 </div>
 
 <div align="center">
-  <b>WeChat Pay</b> &nbsp;|&nbsp; <b>USDT(network:solana)</b>
+  <b>WeChat Pay</b> &nbsp;|&nbsp; <b>USDT(network:solana)</b>|&nbsp; <a href="https://www.paypal.com/paypalme/piger2008" target="_blank"><b>PAYPAL</b></a>
 </div>
 <div align="center">
 <a href="https://www.paypal.com/paypalme/piger2008"><b>PAYPAL</b></a>
