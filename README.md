@@ -53,8 +53,8 @@
   可在软件内「ffmpeg 状态」→「手动选择 ffmpeg」切换为你自己的 `ffmpeg.exe`
 - 若下载的是"精简包"（不含 ffmpeg），请把 `ffmpeg.exe` / `ffprobe.exe`
   放到 `vendor/ffmpeg/bin/` 目录
-- nonfree ffmpeg构建：https://github.com/MartinEesmaa/VVCEasy/releases
-
+- nonfree ffmpeg构建下载：https://github.com/MartinEesmaa/VVCEasy/releases
+- Microsoft在2026年已授权win10/11系统编码器aac_mf编码输出HE-AAC，但实测只能输出v1不能输出v2（缺少ps层）且无法指定auto profile!
 ---
 
 ## 🚀 快速上手
