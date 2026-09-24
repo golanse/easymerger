@@ -116,6 +116,7 @@ EasyMerger 通过**命令行子进程**调用 FFmpeg，不链接、不修改其�
 - 官方 Git 仓库：<https://git.ffmpeg.org/ffmpeg.git>
 - GitHub 镜像：<https://github.com/FFmpeg/FFmpeg>
 - 官方下载页：<https://ffmpeg.org/download.html>
+- BtbN:<https://github.com/BtbN/FFmpeg-Builds/releases>
 
 你也可以向本项目作者索取所分发 FFmpeg 二进制的完整对应源码，
 我们将提供获取方式，或按介质成本提供书面报价。
