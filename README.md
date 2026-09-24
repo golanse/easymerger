@@ -49,11 +49,11 @@
 **关于 ffmpeg**：
 
 - 发布包内**已包含** FFmpeg 二进制（GPL 构建），开箱即用
-- 如果想用功能更全的构建（例如带 `libfdk_aac`、可输出 HE-AAC、HE—AAC v2），
+- 如果想用功能更全的构建（例如nonfree ffmpeg构建带 `libfdk_aac`、可输出 HE-AAC、HE-AAC v2），
   可在软件内「ffmpeg 状态」→「手动选择 ffmpeg」切换为你自己的 `ffmpeg.exe`
 - 若下载的是"精简包"（不含 ffmpeg），请把 `ffmpeg.exe` / `ffprobe.exe`
   放到 `vendor/ffmpeg/bin/` 目录
-- nonfree构建ffmpeg：https://github.com/MartinEesmaa/VVCEasy/releases
+- nonfree ffmpeg构建：https://github.com/MartinEesmaa/VVCEasy/releases
 
 ---
 
