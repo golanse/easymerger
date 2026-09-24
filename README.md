@@ -53,7 +53,7 @@
   可在软件内「ffmpeg 状态」→「手动选择 ffmpeg」切换为你自己的 `ffmpeg.exe`
 - 若下载的是"精简包"（不含 ffmpeg），请把 `ffmpeg.exe` / `ffprobe.exe`
   放到 `vendor/ffmpeg/bin/` 目录
-- nonfree构建ffmpeg：[https://github.com/MartinEesmaa/VVCEasy/releases]
+- nonfree构建ffmpeg：https://github.com/MartinEesmaa/VVCEasy/releases
 
 ---
 
