@@ -44,7 +44,7 @@
 ## 📦 下载与安装
 
 从 [Releases](https://github.com/golanse/easymerger/releases) 页面下载
-`easymerger_Vx.xx_Windows.zip`，解压后双击 `easymerger.exe` 即可。
+`easymerger_Vx.xx_full.zip`，解压后双击 `easymerger.exe` 即可。
 
 **关于 ffmpeg**：
 
