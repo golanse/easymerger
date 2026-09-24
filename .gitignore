@@ -1,0 +1,55 @@
+# ==========================================================
+# EasyMerger .gitignore
+# 说明：以下规则只影响 git 是否跟踪，不影响本地打包
+# ==========================================================
+
+# ---------- 1. Python 运行时产物 ----------
+__pycache__/
+*.py[cod]
+*.pyc
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# ---------- 2. 打包产物（PyInstaller 生成，几百 MB）----------
+dist/
+build/
+_internal/
+*.exe
+*.spec.bak
+
+# ---------- 3. ffmpeg 二进制 ----------
+# 原因1：体积大（几十~上百 MB）
+# 原因2：nonfree 构建（含 libfdk_aac）不可再分发
+# 本地打包时仍要把 ffmpeg.exe / ffprobe.exe 放进 vendor/ffmpeg/bin/
+vendor/ffmpeg/bin/*
+!vendor/ffmpeg/bin/.gitkeep
+vendor/ffmpeg/*.exe
+vendor/ffmpeg/*.zip
+vendor/ffmpeg/*.7z
+
+# ---------- 4. 本地配置（含个人路径与偏好）----------
+config.json
+*.cfg.local
+
+# ---------- 5. 日志与运行残留 ----------
+*.log
+logs/
+.mp4merger_*
+*.easymerger.bak
+*.easymerger.tmp
+
+# ---------- 6. 测试临时数据 ----------
+_testdata/
+tmp/
+temp/
+
+# ---------- 7. 操作系统 / 编辑器 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
